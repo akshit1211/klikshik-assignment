@@ -1,0 +1,37 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f9;
+}
+
+#root {
+  height: 100%;
+}
+
+.slick-dots.custom-dot {
+  position: relative;
+  bottom: -30px;
+}
+
+.slick-dots li button:before {
+  color: #000;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #1976d2; /* MUI primary color */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: transparent; /* Hide default arrows */
+}
+
+.slick-prev,
+.slick-next {
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+}

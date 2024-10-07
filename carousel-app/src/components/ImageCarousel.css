@@ -1,0 +1,51 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.swiper_container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.slider-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #000;
+}
+
+/* Hide Swiper default arrows */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.ion-icon {
+  font-size: 24px;
+  color: #fff;
+}
