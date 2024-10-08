@@ -51,7 +51,7 @@ const ImageCarousel = () => {
             >
                 {imageUrls.map((url, index) => (
                     <SwiperSlide key={index}>
-                        <img src={url} alt={`Slide ${index}`} />
+                        <img src={url} alt={`Slide ${index}`} loading="lazy"/>
                     </SwiperSlide>
                 ))}
 
